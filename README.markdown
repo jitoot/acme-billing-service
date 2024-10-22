@@ -4,10 +4,10 @@ This is a simple subscription billing service for a code challenge.
 
 ## Schema
 
-Customer: Stores customer information.
-Product: Represents the items or services sold to customers.
-Plan: Defines a subscription plan for a product, including the price, currency, and the billing cycle (either monthly or annual).
-Subscription: A record linking a customer to a specific plan, indicating that the customer has subscribed to that plan.
+- Customer: Stores customer information.
+- Product: Represents the items or services sold to customers.
+- Plan: Defines a subscription plan for a product, including the price, currency, and the billing cycle (either monthly or annual).
+- Subscription: A record linking a customer to a specific plan, indicating that the customer has subscribed to that plan.
 
 Here is a simple schema diagram of the relationships between entities.
 
@@ -15,7 +15,7 @@ Here is a simple schema diagram of the relationships between entities.
 
 ## Assumptions
 1. Plans do not have additional fees/taxes.
-2. Only the billing logic is implemented due to time constraints (no logic to add/remove subscription data). The subscription information is mocked via a JSON file.
+2. Only the billing logic is implemented due to time constraints (no logic to add/remove subscription data). The subscription information is mocked via a JSON file located at `data` folder. Feel free to modify the JSON file to simulate different scenarios.
 
 ## Code structure
 The core application is written as a console command using Symfony/Console package, and is located in src/Commands/BillingApplicationCommand.
