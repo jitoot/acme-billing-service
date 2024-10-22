@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "customer": {
+            "id": "100",
+            "firstName": "Emily",
+            "lastName": "Johnson",
+            "email": "emily.johnson@x.dummyjson.com"
+        },
+        "plan": {
+            "product": {
+                "name": "Service 1"
+            },
+            "billingType": "MONTHLY",
+            "currency": "USD",
+            "price": 19.99
+        },
+        "previousBillingDate": "2024-09-21T23:28:00.000Z",
+        "nextBillingDate": "2024-10-20T23:28:00.000Z",
+        "status": "ACTIVE"
+    },
+    {
+        "id": "2",
+        "customer": {
+            "id": "101",
+            "firstName": "James",
+            "lastName": "Pok",
+            "email": "jamespok@gmail.com"
+        },
+        "plan": {
+            "product": {
+                "name": "Service 2"
+            },
+            "billingType": "YEARLY",
+            "currency": "USD",
+            "price": 99.99
+        },
+        "previousBillingDate": "2023-10-21T18:28:00.000Z",
+        "nextBillingDate": "2024-10-21T18:28:00.000Z",
+        "status": "ACTIVE"
+    },
+    {
+        "id": "3",
+        "customer": {
+            "id": "102",
+            "firstName": "Test",
+            "lastName": "User",
+            "email": "test.user@example.com"
+        },
+        "plan": {
+            "product": {
+                "name": "Service 1"
+            },
+            "billingType": "MONTHLY",
+            "currency": "USD",
+            "price": 19.99
+        },
+        "previousBillingDate": "2024-10-21T23:28:00.000Z",
+        "nextBillingDate": "2024-11-21T23:28:00.000Z",
+        "status": "ACTIVE"
+    }
+]
