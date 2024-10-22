@@ -1,6 +1,3 @@
 /.phpunit.result.cache
-/phpunit.xml
-/composer.phar
-/composer.lock
 /vendor
 /coverage

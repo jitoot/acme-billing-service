@@ -10,7 +10,8 @@ Plan: Defines a subscription plan for a product, including the price, currency, 
 Subscription: A record linking a customer to a specific plan, indicating that the customer has subscribed to that plan.
 
 Here is a simple schema diagram of the relationships between entities.
-<img width="964" alt="schema" src="https://github.com/jitoot/acme-billing-service/blob/master/billing.png">
+
+<img width="600" alt="schema" src="https://github.com/jitoot/acme-billing-service/blob/master/billing.png">
 
 ## Assumptions
 1. Plans do not have additional fees/taxes.
@@ -27,9 +28,8 @@ PHP 8.3
 ## Installation
 
 1. Install [Composer](http://getcomposer.org/) package manager.
-2. Create project:
-
-        $ Download repository as zip and unzip to a folder.
+2. Download repository as zip and unzip to a folder: https://github.com/jitoot/acme-billing-service/archive/refs/heads/master.zip
+3. Install via composer:
         $ composer install
 
 3. Run `php bin/console acme:billing` to run the billing service. 
