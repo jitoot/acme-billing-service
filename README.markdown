@@ -28,9 +28,8 @@ PHP 8.3
 ## Installation
 
 1. Install [Composer](http://getcomposer.org/) package manager.
-2. Download repository as zip and unzip to a folder: https://github.com/jitoot/acme-billing-service/archive/refs/heads/master.zip
-3. Install via composer:
-        $ composer install
+2. Clone or download repository as zip and unzip to a folder: https://github.com/jitoot/acme-billing-service/archive/refs/heads/master.zip
+3. Install via composer: `composer install`
 
 3. Run `php bin/console acme:billing` to run the billing service. 
 Optionally you can pass in a date in YYYY-MM-DD format to filter the list of subscriptions based on the next billing date.
